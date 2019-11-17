@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+a, button {
+    transition: all .4s step-start;
+}
+
+body {
+    margin: 0 auto;
+    min-height: 100%;
+    max-width: 940px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #adadad;
+}
+
+/* HEADER */
+
+header {
+    text-transform: uppercase;
+    max-width: 530px;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.6rem;
+    margin-top: 35px;
+    color: #0ec8cb;
+}
+
+h3 {
+    line-height: 1.7rem;
+    font-size: 16px;
+    margin-top: 45px;
+    font-weight: lighter;
+    font-stretch: ultra-condensed;
+    text-align: center;
+
+}
+
+/* SECTION */
+
+img {
+    display: block;
+    margin: 60px auto ;
+    height: 71px;
+
+}
+section {
+    background-color: #f7f7f7;
+    display: flex;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+div {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div p {
+    text-align: center;
+    line-height: 1.6rem;
+    margin-bottom: 0 30 80 30px;
+    color: #777777
+}
+
+a {
+    display: block;    
+}
+div:hover {
+    background-color: #0ec8cb;
+}   
+
+div:hover h2 {
+    color: #fff;
+}
+
+div:hover p {
+    color: #fff
+}
+
+div:hover img {
+    opacity: 0;
+}
+
+div:hover a.one {
+    background: url(../img/img11.png) no-repeat 50% 50%;
+
+}
+
+div:hover a.two {
+    background: url(../img/img22.png)  no-repeat 50% 50%;
+}
+
+div:hover a.three {
+    background: url(../img/img333.png)  no-repeat 50% 50%;
+}
+
+div:hover a.four {
+    background: url(../img/img444.png)  no-repeat 50% 50%;
+    height: 70px;
+}
